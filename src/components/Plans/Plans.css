@@ -9,6 +9,20 @@
     position: relative;
     text-align: center;
 }
+
+.plans-blur-1{
+  width: 40rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0rem;
+}
+.plans-blur-2{
+  width: 40rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0rem;
+}
+
 .programs-header {
     font-size: 3rem; 
     font-weight: bold;

@@ -92,13 +92,13 @@
 .hero-buttons>:nth-child(1){
     color: white;
     background-color: var(--orange);
-    width: 8rem;
+    width: 10rem;
 }
 
 .hero-buttons>:nth-child(2){
     color: white;
     background-color: transparent;
-    width: 8rem;
+    width: 10rem;
     border: 2px solid var(--orange);
 }
 
@@ -157,10 +157,10 @@
     background-color: var(--caloryCard);
     border-radius: 5px;
     padding: 1rem;
-    width: 13rem;
+    width: 15rem;
     position: absolute;
-    top: 34rem;
-    right: 45rem;
+    top: 40rem;
+    right: 40rem;
 }
  .calories > img{
     width: 3rem;
@@ -176,4 +176,10 @@
 .calories>div>:nth-child(2){
     color: white;
     font-size: 1.5rem;
+}
+
+.blur-h{
+    width: 40rem;
+    height: 40rem;
+    left: 0;
 }

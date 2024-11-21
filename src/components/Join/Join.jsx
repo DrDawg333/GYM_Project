@@ -36,7 +36,7 @@ const Join = () => {
       <div className="right-j">
         <form ref={form} className="email-container" onSubmit={sendEmail}>
             <input type="email" name="user_email" placeholder="Enter your E-mail" />
-            <button className="btn btn-j">Join Now</button>
+            <button className="btn-j">Join Now</button>
         </form>
       </div>
     </div>
