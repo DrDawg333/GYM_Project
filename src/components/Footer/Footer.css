@@ -5,7 +5,7 @@
 }
 
 .Footer-container>hr{
-    border: 1px solid var(--lightgray);
+    border: 1px solid var(--orange);
 }
 .footer{
     display: flex;
@@ -29,10 +29,10 @@
 .blur-f-1, .blur-f-2{
     position: absolute;
     bottom: 0;
+    height: 20rem;
     width: 26rem;
     gap: 12rem;
     filter: blur(200px);
-    z-index: -1;
 }
 
 .blur-f-1 {
