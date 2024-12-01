@@ -1,0 +1,123 @@
+/* Main Container */
+.sign-up-container {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto; /* Center alignment */
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Header Styling */
+  .sign-up-container h2 {
+    font-size: 26px;
+    color: #ff7b54;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Form Styling */
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .sign-up-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .sign-up-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .sign-up-form input[type="email"],
+  .sign-up-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .sign-up-form input[type="email"]:focus,
+  .sign-up-form input[type="password"]:focus {
+    border: 1px solid #ff7b54;
+    box-shadow: 0 0 5px rgba(255, 123, 84, 0.5);
+  }
+  
+  /* Error Styling */
+  .sign-up-container .error {
+    color: #ff5722;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styling */
+  .sign-up-container .btn-sign-up {
+    background: #ff7b54;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .sign-up-container .btn-sign-up:hover {
+    background: #ff5722;
+  }
+  
+  .sign-up-container .btn-sign-up:active {
+    background: #e64a19;
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .sign-up-container {
+      padding: 20px;
+    }
+  
+    .sign-up-container h2 {
+      font-size: 22px;
+    }
+  
+    .sign-up-container .btn-sign-up {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .button-group .btn-sign-up {
+    width: 48%;
+  }

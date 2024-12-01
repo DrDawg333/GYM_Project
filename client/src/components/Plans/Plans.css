@@ -1,0 +1,141 @@
+.plans-container {
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+.plans-blur-1{
+  width: 40rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0rem;
+}
+.plans-blur-2{
+  width: 40rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0rem;
+}
+
+.programs-header {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+}
+  
+.programs-header .stroke-text {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-weight: 900;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+  
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: var(--caloryCard, #4e4e4e);
+    border-radius: 12px;
+    width: 20rem;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 10px var(--orange);
+}
+  
+  .plan:nth-child(2) {
+    background: var(--planCard, #ff8c42);
+    transform: scale(1.1);
+  }
+  
+  /* Plan Icon */
+  .plan > svg {
+    fill: var(--orange);
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /* Plan Name and Price */
+  .plan > span:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .plan > span:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Features List */
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .feature img {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  /* See More Benefits */
+  .plan > div:last-child {
+    font-size: 0.9rem;
+    color: #ff8c42;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .plan > div:last-child:hover {
+    color: #ffa563;
+  }
+  
+  .btn {
+    padding: 0.8rem 2rem;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+    background: var(--orange);
+    color: white;
+  }
+  
+  .plans>:nth-child(2)>svg{
+    fill: white;
+  }
+
+.plans>:nth-child(2)>button:hover{
+    background: black;
+}
